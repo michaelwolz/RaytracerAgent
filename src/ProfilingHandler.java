@@ -13,10 +13,10 @@ public class ProfilingHandler {
 
     private static class MethodCall {
         private int count = 0;
-        private double avgTime = 0d;
+        private double avgTime = 0L;
 
         void add(long time) {
-            avgTime += ((avgTime * count) + time) / (count + 1);
+            avgTime = ((avgTime * count) + time) / (count + 1d);
             count++;
         }
     }
@@ -37,7 +37,7 @@ public class ProfilingHandler {
                 printWriter.print("MethodName;Calls;AvgExecutionTime\n");
 
                 methodCalls.forEach((key, value) ->
-                        printWriter.printf("%s;%d;%fms\n", key, value.count, value.avgTime)
+                        printWriter.printf("%s;%d;%fms\n", key, value.count, value.avgTime / 1000000d)
                 );
 
                 printWriter.close();

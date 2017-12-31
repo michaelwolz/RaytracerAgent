@@ -1,9 +1,9 @@
 MethodName;Calls;AvgExecutionTime
-renderImage;1;2588610027,000000ms
-hitObject;1971138;Infinityms
-createScene;1;4733587,000000ms
-addColors;1780696;Infinityms
-rayTrace;1213025;Infinityms
-main;1;3021758787,000000ms
-lighting;250890;Infinityms
-<init>;1;2826974077,000000ms
+renderImage;1;2321,474025ms
+hitObject;1932888;0,003443ms
+createScene;1;6,028509ms
+addColors;1813408;0,000103ms
+rayTrace;1213330;0,008347ms
+main;1;2716,902100ms
+lighting;250700;0,021294ms
+<init>;1;2534,939178ms

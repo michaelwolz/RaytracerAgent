@@ -1,0 +1,20 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Java template
+# Compiled class file
+*.class
+
+# Package Files #
+*.jar
+*.war
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# User-specific stuff:
+.idea
+
+# IntelliJ
+out/
+
+.DS_Store

@@ -6,7 +6,6 @@
 import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.HashMap;
-import java.util.concurrent.TimeUnit;
 
 public class ProfilingHandler {
     private static HashMap<String, MethodCall> methodCalls = new HashMap<>();

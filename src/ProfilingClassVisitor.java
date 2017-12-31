@@ -1,3 +1,8 @@
+/*
+ * Author: Michael Wolz
+ * MatrikelNr: 1195270
+ */
+
 import org.objectweb.asm.ClassVisitor;
 import org.objectweb.asm.MethodVisitor;
 import org.objectweb.asm.Opcodes;
